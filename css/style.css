@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, body{ 
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner{ 
+    background-image: url(../img/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-utility{ 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    
+}
+
+.classic-burger{ 
+    background-image:    linear-gradient(to bottom, rgba(148, 137, 137, 0.52), rgba(1, 1, 1, 0.73)), url(../img/alexander-startsev-ndNw_6QGR_c-unsplash.jpg);
+}
+
+.cobb-burger{ 
+    background-image: linear-gradient(to bottom, rgba(148, 137, 137, 0.52), rgba(1, 1, 1, 0.73)),url(../img/irene-kredenets-wR5UQ55LN8Y-unsplash.jpg);
+}
+
+.fries-burger{ 
+    background-image:linear-gradient(to bottom, rgba(148, 137, 137, 0.52), rgba(1, 1, 1, 0.73)), url(../img/john-fornander-VedLcUfLi74-unsplash.jpg);
+}
+
+.c-customize:hover{ 
+    background-color:#ffc107;
+    transition: 0.9s;
+}
+
+footer ul li{ 
+    list-style-type: none;
+}
+footer ul li a{ 
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 19px;
+}
+
+
+footer ul li a:hover{ 
+    color: #ffc107;
+    transition: 0.5s;
+}
